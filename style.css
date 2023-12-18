@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2377cb;
+    /* Change this color to your preference */
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+    /* Slightly darker than the background color for better visibility */
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    color: #333;
+}
+
+.project {
+    margin-bottom: 40px;
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+ul.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul.social-links li a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    border: 1px solid #3498db;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+ul.social-links li a:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.container p {
+    color: #1b1a1a;
+}
+
+footer p {
+    color: #1b1a1a;
+}
+
+footer{
+    background-color: #3498db;
+    text-align: center;
+    padding: 20px 0;
+}
